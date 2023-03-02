@@ -1,16 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import Card from './Card.js';
 import reportWebVitals from './reportWebVitals';
 import 'tachyons';
-// const root = ReactDOM.render(<App greeting={'Hello World this is my 1st app'}/>,document.getElementById('root'));
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+ ReactDOM.render(<Card/>,document.getElementById('root'));
+ 
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
